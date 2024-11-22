@@ -158,5 +158,8 @@ async def upload_csv(file: UploadFile = File(...)):
 
 @app.post("/chat")
 async def chat(prompt: str):
+    # Query the OpenAI model with the provided prompt
     response = query_openai_model(prompt)
+    
+    # Return the response from the model
     return {"response": response}

@@ -11,8 +11,8 @@
 - [x] Identify key features for analysis
 
 ## Model Selection and Fine-Tuning
-- [ ] Select base model from Hugging Face
-- [ ] Prepare data for training (tokenization, etc.)
+- [x] Select base model from Hugging Face
+- [x] Prepare data for training (tokenization, etc.)
 - [ ] Fine-tune model on student performance data
 
 ## Integration and Development
